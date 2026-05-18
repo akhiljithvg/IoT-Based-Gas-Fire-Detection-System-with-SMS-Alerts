@@ -2,7 +2,10 @@
 > Real-time industrial safety monitoring using ESP32, FreeRTOS, and SMS notifications.
 
 ---
-![Gas Leakage Detector](IMG-20250329-WA0005.jpg){width=50%}  ![Gas Leakage Detector](GASMONITORINGSYSTEMCIRCUITDIAGRAM.png){width=50%}
+<p align="center">
+  <img src="IMG-20250329-WA0005.jpg" width="45%" alt="Gas Leakage Detector">
+  <img src="GASMONITORINGSYSTEMCIRCUITDIAGRAM.png" width="45%" alt="Gas Leakage Detector Circuit Diagram">
+</p>
 
 ## 📌 Project Overview
 This project implements a robust IoT safety monitoring system designed to detect hazardous gas leaks and fire outbreaks. Built on the ESP32 microcontroller, it utilizes FreeRTOS for efficient multitasking. The system continuously monitors sensor data and, upon detecting danger, activates a local alarm and sends instant SMS alerts to a designated mobile number via an external API.
